@@ -1,4 +1,49 @@
 baseURL: https://jossaline.github.io
 languageCode: en-us
-title: Jossaline
+title: jossaline
 theme: PaperMod
+params:
+  description: "My personal website"
+  author: Jossaline
+  # author: ["Me", "You"] # multiple authors
+
+  defaultTheme: auto
+  # disableThemeToggle: true
+  ShowShareButtons: true
+  ShowReadingTime: true
+  # disableSpecial1stPost: true
+  displayFullLangName: true
+  ShowPostNavLinks: true
+  ShowBreadCrumbs: true
+  ShowCodeCopyButtons: true
+  ShowRssButtonInSectionTermList: true
+  ShowAllPagesInArchive: true
+  ShowPageNums: true
+  ShowToc: true
+  # comments: false
+  images: ["images/papermod-cover.png"]
+
+  profileMode:
+    enabled: false
+    title: jossaline
+    imageUrl: "#"
+    imageTitle: my image
+    # imageWidth: 120
+    # imageHeight: 120
+    buttons:
+      - name: Archives
+        url: archives
+      - name: Tags
+        url: tags
+
+  homeInfoParams:
+    Title: "Hi"
+    Content: "Welcome to my website! I hope you enjoy your time here"
+
+  socialIcons:
+    - name: linkedin
+      title: Find me on Linkedin!
+      url: "https://www.linkedin.com/in/jossaline"
+    - name: twitter
+      title: Or Twitter
+      url: "https://x.com/Jossalinne"
